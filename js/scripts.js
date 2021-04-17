@@ -12,3 +12,15 @@ $(function () {
         }
     });
 });
+
+
+$("#reserveButton").click(function () {
+    console.log("Inside reserve!");
+    $("#reserveModal").modal('show');
+    })
+
+/* (".loginButton") */
+    $("#loginButton").click(function () {
+        console.log("Inside login");
+        $("#loginModal").modal('show');
+    })
